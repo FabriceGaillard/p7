@@ -1,0 +1,20 @@
+.thumb-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.thumb-list li {
+  width: 340px;
+  height: 340px;
+}
+
+@media screen and (max-width: 576px) {
+  .thumb-list {
+    gap: 20px;
+  }
+  .thumb-list li {
+    height: 255px;
+    width: 100%;
+  }
+}
