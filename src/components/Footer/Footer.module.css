@@ -1,0 +1,21 @@
+.footer {
+  font-size: 24px;
+  color: white;
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+}
+
+.footer-logo {
+  color: inherit;
+  width: 122px;
+  height: 40px;
+  display: block;
+  margin: 40px auto;
+}
+
+@media screen and (max-width: 576px) {
+  .footer {
+    font-size: 12px;
+  }
+}
