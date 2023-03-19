@@ -1,0 +1,19 @@
+.about-hero {
+  height: 223px;
+  border-radius: var(--border-radius-lg);
+  background: center/cover url('../../assets/imgs/bg-about.jpg');
+  margin-bottom: 31px;
+}
+
+.about-section {
+  padding: 0 70px;
+}
+
+@media screen and (max-width: 576px) {
+  .about-hero {
+    border-radius: var(--border-radius-sm);
+  }
+  .about-section {
+    padding: 0;
+  }
+}
