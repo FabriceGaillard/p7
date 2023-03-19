@@ -8,6 +8,11 @@
   --font-family-medium: 'Montserrat-Medium', Arial, Helvetica, sans-serif;
   --font-family-bold: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
 
+  --h1: 48px;
+
+  /* block */
+  --border-radius-lg: 25px;
+  --border-radius-sm: 10px;
   /* media queries */
   /* 
   --mq-xs: 0px;
