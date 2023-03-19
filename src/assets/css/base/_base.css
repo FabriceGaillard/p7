@@ -22,3 +22,15 @@ a:hover {
 a:visited {
   color: unset;
 }
+
+details summary {
+  list-style: none;
+}
+
+details summary:focus {
+  outline: none;
+}
+
+details summary {
+  user-select: none;
+}

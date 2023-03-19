@@ -18,7 +18,7 @@
 
 .home-cards {
   padding: 50px;
-  background-color: #f7f7f7;
+  background-color: var(--color-grey);
   margin: 40px 0;
 }
 
