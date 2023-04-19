@@ -1,0 +1,18 @@
+.star-list li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.star-list li:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .star-list li {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+}

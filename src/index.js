@@ -3,13 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './assets/css/index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Home from './pages/Home/Home';
+// import About from './pages/About/About';
+// import Accomodation from './pages/Accomodation/Accomodation';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
-    <main className="b2">main</main>
-    <footer className="b3">footer</footer>
+    <main className="container">
+      <Home />
+    </main>
+    <Footer />
   </React.StrictMode>,
 );
 

@@ -22,6 +22,10 @@
   background-color: var(--color-primary);
   color: white;
   font-family: var(--font-family-medium);
+  line-height: 26px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .collapse summary:after {
@@ -42,10 +46,11 @@
   background-color: var(--color-grey);
   padding: var(--pad-y) var(--pad-x);
   border-radius: 0 0 var(--border-radius-sm) var(--border-radius-sm);
-  margin-top: calc(var(--shift) * -1);
-  padding-top: calc(var(--shift) + 20px);
+  margin-top: calc((26px + var(--pad-y) * 2) * -1);
+  padding-top: calc((26px + var(--pad-y) * 2) + 20px);
   color: var(--color-primary);
   line-height: var(--line-height);
+  height: 100%;
 }
 
 @media screen and (max-width: 576px) {

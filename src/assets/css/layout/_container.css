@@ -4,6 +4,11 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 992px) {
+  .container {
+    width: calc(100% - 60px);
+  }
+}
 @media screen and (max-width: 576px) {
   .container {
     width: calc(100% - 40px);

@@ -4,7 +4,9 @@ import Logo from '../Logo/Logo';
 export default function Header() {
   return (
     <header className={`container ${styles.header}`}>
-      <Logo className={styles['header-logo']} />
+      <a href="/">
+        <Logo className={styles['header-logo']} />
+      </a>
       <nav className={styles['header-nav']}>
         <ul>
           <li>

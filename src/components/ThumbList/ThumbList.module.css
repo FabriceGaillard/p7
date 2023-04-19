@@ -1,12 +1,33 @@
+:root {
+  --column-gap: 60px;
+}
+
 .thumb-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 60px;
+  column-gap: var(--column-gap);
+  row-gap: 50px;
 }
 
 .thumb-list li {
-  width: 340px;
-  height: 340px;
+  width: calc((100% - var(--column-gap) * 2) / 3);
+  aspect-ratio: 1;
+}
+
+@media screen and (max-width: 1200px) {
+  :root {
+    --column-gap: 30px;
+  }
+
+  .thumb-list {
+    row-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .thumb-list li {
+    width: calc((100% - var(--column-gap)) / 2);
+  }
 }
 
 @media screen and (max-width: 576px) {

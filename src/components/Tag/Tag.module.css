@@ -1,0 +1,9 @@
+.tag {
+  background-color: var(--color-primary);
+  border-radius: var(--border-radius-sm);
+  color: white;
+  line-height: 20px;
+  font-size: 14px;
+  padding: 3px 22px;
+  white-space: nowrap;
+}

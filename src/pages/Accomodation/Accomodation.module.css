@@ -1,0 +1,69 @@
+.accomodation-carousel {
+  margin-bottom: 30px;
+}
+
+.accomodation-caption {
+  color: var(--color-primary);
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.accomodation-caption div:nth-child(2) {
+  margin-left: auto;
+}
+
+.accomodation-title {
+  font-size: 36px;
+  line-height: 51px;
+}
+
+.accomodation-location {
+  line-height: 26px;
+}
+
+.accomodation-tag-list li {
+  display: inline-block;
+  padding: 20px 10px 0px 0;
+}
+.accomodation-tag-list li:last-child {
+  padding-right: 0;
+}
+
+.accomodation-host {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+.host-avatar {
+  border-radius: 100%;
+  width: 64px;
+  height: 64px;
+}
+.host-name {
+  font-family: var(--font-family-medium);
+  margin-right: 10px;
+  width: min-content;
+  line-height: 26px;
+}
+
+.accomodation-star-list {
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.accomodation-collapse-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.accomodation-collapse-container > * {
+  width: 47%;
+}
+
+.accomodation-collapse {
+  line-height: 26px;
+}

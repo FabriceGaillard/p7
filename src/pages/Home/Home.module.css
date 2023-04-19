@@ -20,6 +20,13 @@
   padding: 50px;
   background-color: var(--color-grey);
   margin: 40px 0;
+  border-radius: var(--border-radius-lg);
+}
+
+@media screen and (max-width: 1200px) {
+  .home-cards {
+    padding: 30px;
+  }
 }
 
 @media screen and (max-width: 576px) {
